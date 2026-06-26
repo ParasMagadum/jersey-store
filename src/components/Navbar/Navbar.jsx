@@ -14,7 +14,7 @@ function Navbar({
       {/* Logo */}
       <div className="nav-logo" onClick={() => setActivePage("home")}>
         <FaFutbol className="logo-icon" />
-        <span>Jersey<strong>Vault</strong></span>
+        <span>Jersey<strong>-Store</strong></span>
       </div>
 
       {/* Search */}
