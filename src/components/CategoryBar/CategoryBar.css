@@ -1,0 +1,23 @@
+.category{
+    display:flex;
+    gap:18px;
+    padding:18px 30px;
+    background:white;
+    margin-top:5px;
+    overflow:auto;
+}
+
+.category button{
+    border:none;
+    background:#0d6efd;
+    color:white;
+    padding:10px 22px;
+    border-radius:25px;
+    cursor:pointer;
+    white-space:nowrap;
+    transition:.3s;
+}
+
+.category button:hover{
+    background:#084298;
+}
