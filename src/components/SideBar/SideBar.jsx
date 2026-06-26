@@ -1,4 +1,4 @@
-import "./Sidebar.css";
+import "./SideBar.css";
 import { FaFutbol } from "react-icons/fa";
 import { GiCricketBat } from "react-icons/gi";
 
