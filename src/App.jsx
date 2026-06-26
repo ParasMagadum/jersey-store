@@ -1,13 +1,13 @@
 import { useState } from "react";
 import "./App.css";
-import Navbar from "./components/Navbar/Navbar";
-import Sidebar from "./components/Sidebar/Sidebar";
-import ProductGrid from "./components/ProductGrid/ProductGrid";
-import FilterPanel from "./components/FilterPanel/FilterPanel";
-import Cart from "./components/Cart/Cart";
-import Wishlist from "./components/Wishlist/Wishlist";
-import ProfileMenu from "./components/ProfileMenu/ProfileMenu";
-import jerseys from "./data/Jerseys";
+import Navbar from "./components/Navbar/Navbar.jsx";
+import Sidebar from "./components/SideBar/SideBar.jsx";
+import ProductGrid from "./components/ProductGrid/ProductGrid.jsx";
+import FilterPanel from "./components/FilterPanel/FilterPanel.jsx";
+import Cart from "./components/Cart/Cart.jsx";
+import Wishlist from "./components/Wishlist/Wishlist.jsx";
+import ProfileMenu from "./components/ProfileMenu/ProfileMenu.jsx";
+import jerseys from "./data/Jerseys.js";
 
 function App() {
   // Page routing: "home" | "cart" | "wishlist" | "profile"
